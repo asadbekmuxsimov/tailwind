@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <nav class="flex justify-between items-center py-6 p-10">
+                <h1 class="text-2xl text-gradient-to-r from-violet-500 to-red-500">BrandName</h1>
+                <ul class="gap-5 hidden md:flex">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="bg-gradient-to-r from-violet-500 to-red-500 text-white text-center p-20 pt-36 pb-36">
+                <h1 class="pb-8 text-5xl">Welkome to Our Website</h1>
+                <p class="pb-8 text-xl">We provide amazing solutions for your business</p>
+                <button class="bg-white text-violet-500 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-[25px]" >Get Started</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class=" bg">
+                <h2 class="text-5xl text-center pt-20 animate-bounce m-10">Our Services</h2>
+            </div>
+            <div class="web grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between  p-10 pt-20 text-center flex-wrap">
+                <div class="bg-slate-100 p-16 rounded-[10px] hover:scale-105 duration-300">
+                    <h2 class="text-3xl">Web Developmend</h2>
+                    <p class="pt-3 text-xl">Build responsive and modem websites for your business</p>
+                </div>
+                <div class="bg-slate-100 p-16 rounded-[10px] hover:scale-105 duration-300">
+                    <h2 class="text-3xl">Graphic Design</h2>
+                    <p class="pt-3 text-xl">Build responsive and modem websites for your business</p>
+                </div>
+                <div class="bg-slate-100 p-16 rounded-[10px] hover:scale-105 duration-300">
+                    <h2 class="text-3xl">Digital Marketing</h2>
+                    <p class="pt-3 text-xl">Build responsive and modem websites for your business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container pt-16">
+            <div class="text-center p-20 bg-gradient-to-r from-violet-500 to-red-500 text-white">
+                <h2 class="text-2xl">Follow us on social media</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
